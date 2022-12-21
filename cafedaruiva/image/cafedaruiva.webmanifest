@@ -1,0 +1,17 @@
+{
+  "name": "Café da Ruiva application",
+  "short_name": "Café da Ruiva app"
+  "lang": "pt-BR"
+  "icons": [{
+    "src": "image/cafedaruiva-16x16.png",
+    "sizes": "16x16",
+    "type": "image/png"
+  },{
+    "src": "image/cafedaruiva-16x16.png",
+    "sizes": "16x16",
+    "type": "image/png"
+  }],
+  "theme_color": "#043b7e",
+  "background_color": "#043b7e",
+  "display": "standalone"
+}
