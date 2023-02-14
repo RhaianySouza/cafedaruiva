@@ -1,7 +1,3 @@
-:root{
-  --cor1:#F56C90;
-}
-
 /* Menu
 ---------------------------------------------------------------------------------------------------*/
 
@@ -496,7 +492,6 @@
   padding: 10px;
 }
 .indicator ul li a:hover{
-  background: #f0f;
   color: #fff;
 }
 .indicator ul li{
@@ -636,7 +631,6 @@
   transform: rotate(-135deg);
 }
 .losangle ul li:hover{
-  background: #f0f;
   color: #fff;
 }
 .losangle ul li:nth-child(1){
@@ -738,5 +732,3 @@
 .btn-circle{
   border-radius: 50%;
 }
-
-
