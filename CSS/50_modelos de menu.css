@@ -1,0 +1,739 @@
+/* Menu
+---------------------------------------------------------------------------------------------------*/
+
+
+/* Menu Simple Sliding
+-------------------------------------------------*/
+.simplesliding{
+  position: relative;
+  width: fit-content;
+  min-width: 300px;
+  margin: 0;
+  overflow: hidden;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+.simplesliding .btn{
+}
+.simplesliding ul{
+  margin: 0;
+  padding: 0;
+}
+.simplesliding ul li{
+  width: 0px;
+  height: 0px;
+  list-style: none;
+  overflow: hidden;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+.simplesliding:hover ul li{
+  width: 300px;
+  height: 50px;
+  overflow: visible;
+}
+.simplesliding ul li:hover{
+}
+.simplesliding ul li a:link,
+.simplesliding ul li a:visited{
+  text-decoration: none;
+  display: block;
+  padding: 15px 10px;
+  border-bottom: solid 2px rgb(255,255,255,.7);
+}
+.simplesliding ul li a:hover{
+}
+.simplesliding form {
+  position: absolute;
+  float: right;
+  top: 0;
+  right: 0;
+}
+.simplesliding form input[type="search"]{
+  max-width: 190px;
+  height: 30px;
+  margin: 2px 5px; 
+  outline: none;
+  border: none;
+  border-bottom: solid 2px rgb(255,255,255,.7);
+  background: transparent;
+}
+.simplesliding form input[type="search"]:focus-visible,
+.simplesliding form inputinput[type="search"]:focus,
+.simplesliding form input input[type="search"]:active{
+  background: rgb(255,255,255,.9);
+  border-bottom: solid 2px #fff;
+}
+.simplesliding form input[type="submit"]{
+  display: none;
+}
+.simplesliding form label{
+  height: 35px;
+  border: none;
+  line-height: 2;
+  display: inline-block;
+  padding: 0 10px;
+  text-decoration: none;
+  text-align: center;
+  background: #f0f0f0;
+  color: #777;
+  float: right;
+}
+/* Menu Flex Nav
+-------------------------------------------------*/
+.flexnav{
+  margin: 0;
+  overflow: visible;
+  position: relative;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+.flexnav .btn{
+  display: none;
+}
+.flexnav ul{
+  margin: 0;
+  padding: 0;
+  min-height: 50px;
+}
+.flexnav ul li{
+  width: 80px;
+  float: left;
+  list-style: none;
+  text-align: center;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  border-bottom: solid 5px transparent;
+}
+.flexnav:hover ul li{
+}
+.flexnav ul li:hover{
+}
+.flexnav ul li a:link,
+.flexnav ul li a:visited{
+  text-decoration: none;
+  display: block;
+  padding: 16px 10px;
+}
+.flexnav ul li:hover{
+  border-bottom: solid 5px;
+}
+.flexnav ul li:hover a{
+}
+.flexnav form{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.flexnav form input[type="search"]{
+  max-width: 280px;
+  height: 30px;
+  margin: 10px;
+  outline: none;
+  border: none;
+  border-bottom: solid 2px rgb(255,255,255,.7);
+  background: transparent;
+}
+.flexnav form input[type="submit"]{
+  display: none;
+}
+.flexnav form label{
+  border: none;
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  background: #f0f0f0;
+  color: #777;
+}
+.flexnav form input[type="search"]:focus-visible,
+.flexnav form inputinput[type="search"]:focus,
+.flexnav form input input[type="search"]:active{
+  background: rgb(255,255,255,.9);
+  border-bottom: solid 2px #fff;
+}
+@media only screen and (max-width:720px) {
+  .flexnav .btn{
+	display: block;
+	padding: 17.5px 10px;
+  }
+  .flexnav ul{
+	min-height: 0;
+  }
+  .flexnav ul li{
+    width: 0px;
+    height: 0px;
+	padding: 0;
+	float: none;
+    list-style: none;
+    overflow: hidden;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+	text-align: left;
+	border-bottom: none;
+  }
+  .flexnav:hover ul li{
+	width: inherit;
+    height: 38px;
+	border-bottom: solid 1px rgb(255,255,255,.7);
+  }
+  .flexnav ul li a:link, .flexnav ul li a:visited{
+	padding: 10px;
+  }
+}
+/* Menu Mosaic
+-------------------------------------------------*/
+.mosaic{
+  margin: 0;
+  overflow: visible;
+  position: relative;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+.mosaic .btn{
+  display: none;
+}
+.mosaic ul{
+  margin: 0;
+  padding: 0;
+  min-height: 50px;
+}
+.mosaic ul li{
+  width: 80px;
+  text-align: center;
+  list-style: none;
+  overflow: hidden;
+  float: left;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+.mosaic ul li:hover{
+  padding-top: 50px; 
+}
+.mosaic ul li a:link,
+.mosaic ul li a:visited{
+  text-decoration: none;
+  display: block;
+  padding: 16px 10px;
+}
+.mosaic ul li a:hover{
+}
+.mosaic form{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.mosaic form input[type="search"]{
+  max-width: 280px;
+  height: 30px;
+  margin: 10px;
+  outline: none;
+  border: none;
+  border-bottom: solid 2px rgb(255,255,255,.7);
+  background: transparent;
+}
+.mosaic form input[type="submit"]{
+  display: none;
+}
+.mosaic form label{
+  border: none;
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  background: #f0f0f0;
+  color: #777;
+}
+.mosaic form input[type="search"]:focus-visible,
+.mosaic form inputinput[type="search"]:focus,
+.mosaic form input input[type="search"]:active{
+  background: rgb(255,255,255,.9);
+  border-bottom: solid 2px #fff;
+}
+@media only screen and (max-width:740px) {
+  .mosaic{
+    width: 100%
+  }
+  .mosaic .btn{
+    text-align: left;
+    display: block;
+	width: 100%;
+	padding: 17.5px 10px;
+  }
+  .mosaic ul{
+	min-height: 0px;
+  }
+  .mosaic ul li{
+    width: auto;
+    float: none;
+	height: 0;
+	padding: 0;
+	padding-top: 0px; 
+	text-align: left;
+  }
+  .mosaic:hover ul li{
+	height: 40px;
+	padding-top: 0px;
+	text-align: left;
+  }
+  .mosaic ul li:hover{
+    padding-left: 20px;
+  }
+  .mosaic ul li a:link, .mosaic ul li a:visited{
+	padding: 10px;
+  }
+  .mosaic form{
+	width: inherit;
+    text-align: right;
+  }
+  .mosaic form input[type="search"]{
+	border-color: #777;
+	max-width: inherit;
+	width: 65%;
+  }
+  .mosaic form input[type="submit"]{
+	
+  }
+}
+/* Menu Circle
+-------------------------------------------------*/
+.circle {
+  width: 280px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+.circle .btn{
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  top: 45%;
+  left: 40%;
+}
+.circle ul{
+  top: 0px;
+  width: 280px;
+  height: 280px;
+  overflow: hidden;
+  position: absolute;
+  border-radius: 50%;
+  
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  
+  -webkit-transform: rotate(288deg) scale(0.01);
+  -ms-transform: rotate(288deg) scale(0.01);
+  -moz-transform: rotate(288deg) scale(0.01);
+  -webkit-transform: rotate(288deg) scale(0.01);
+  transform: rotate(288deg) scale(0.01);
+}
+.circle:hover ul{
+  -webkit-transform: rotate(288deg) scale(1);
+  -ms-transform: rotate(288deg) scale(1);
+  -moz-transform: rotate(288deg) scale(1);
+  -webkit-transform: rotate(288deg) scale(1);
+  transform: rotate(288deg) scale(1);
+}
+.circle ul li{
+  position: absolute;
+  width: 165px;
+  height: 165px;
+  overflow: hidden;
+  margin-top: -27px;
+  margin-left: -27px;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  
+  -webkit-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  -webkit-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+  
+  -webkit-transform: rotate(145deg) skew(50deg);
+  -ms-transform: rotate(145deg) skew(50deg);
+  -moz-transform: rotate(145deg) skew(50deg);
+  -webkit-transform: rotate(145deg) skew(50deg);
+  transform: rotate(145deg) skew(50deg);
+}
+.circle ul li a:link,
+.circle ul li a:visited{
+  width: 260px;
+  height: 260px;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  text-align: center;
+  line-height: 2;
+  position: absolute;
+  display: block;
+  bottom: -150px;
+  right: -120px;
+  text-decoration: none;
+  border-radius: 50%;
+  padding-top: 60px;
+
+  -webkit-transform: skew(-50deg) rotate(-72deg) scale(1);
+  -moz-transform: skew(-50deg) rotate(-72deg) scale(1);
+  -ms-transform: skew(-50deg) rotate(-72deg) scale(1);
+  transform: skew(-50deg) rotate(-72deg) scale(1);
+}
+.circle:hover ul li a:hover{
+}
+
+.circle:hover ul li{
+  -webkit-transform: rotate(calc(173deg/6* var(--i) * 1.4)) skew(50deg) scale(1);
+  -ms-transform: rotate(calc(173deg/6* var(--i) * 1.4)) skew(50deg) scale(1);
+  -moz-transform: rotate(calc(173deg/6* var(--i) * 1.4)) skew(50deg) scale(1);
+  -webkit-transform: rotate(calc(173deg/6* var(--i) * 1.4)) skew(50deg) scale(1);
+  transform: rotate(calc(173deg/6* var(--i) * 1.4)) skew(50deg) scale(1);
+  
+}
+.circle form{
+  display: none;	
+}
+.circle form input[type="search"]{
+  top: -2px;
+  position: relative;
+  width: 85%;
+  max-width: 237px;
+  height: 30px;
+  margin: 2px;
+  outline: none;
+  border: none;
+  border-bottom: solid 2px rgb(255,255,255,.7);
+  background: transparent;
+}
+.circle form input[type="submit"]{
+  display: none;
+}
+.circle form label{
+  border: none;
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  background: #f0f0f0;
+  color: #777;
+}
+.circle form input[type="search"]:focus-visible,
+.circle form inputinput[type="search"]:focus,
+.circle form input input[type="search"]:active{
+  background: rgb(255,255,255,.9);
+  border-bottom: solid 2px #fff;
+}
+/* Menu Indicator
+-------------------------------------------------*/
+.indicator{
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+.indicator .btn{ 
+  width: 50px;
+  height: 50px;
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  font-size: 16px;
+  line-height: .5;
+  padding: 1px;
+  z-index: 1;
+  top: 34.5%;
+  left: 34.5%;
+}
+.indicator:hover .btn{
+  /*transform: rotate(45deg);*/
+}
+.indicator ul{
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  border-radius: 50%;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  
+  -webkit-transform: scale(.01);
+  -ms-transform: scale(.01);
+  -moz-transform: scale(.01);
+  -webkit-transform: scale(.01);
+  transform: scale(.01);
+}
+.indicator ul li{
+  left: -2%;
+  bottom: 37.5%;
+  font-size: 20px;
+  position: absolute;  
+  transform-origin: 82px;
+  border-radius: 50%;
+  list-style: none;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+.indicator:hover ul{ 
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.indicator ul li a:link,
+.indicator ul li a:visited{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: .9;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+.indicator ul li a:hover{
+  background: #f0f;
+  color: #fff;
+}
+.indicator ul li{
+  -webkit-transform: rotate(calc(360deg/6* var(--i)));
+  -ms-transform: rotate(calc(360deg/6* var(--i)));
+  -moz-transform: rotate(calc(360deg/6* var(--i)));
+  -webkit-transform: rotate(calc(360deg/6* var(--i)));
+  transform: rotate(calc(360deg/6* var(--i)));
+}
+.indicator ul li:hover{
+  -webkit-transform: rotate(calc(360deg/6* var(--i))) translateX(-15px);
+  -ms-transform: rotate(calc(360deg/6* var(--i))) translateX(-15px);
+  -moz-transform: rotate(calc(360deg/6* var(--i))) translateX(-15px);
+  -webkit-transform: rotate(calc(360deg/6* var(--i))) translateX(-15px);
+  transform: rotate(calc(360deg/6* var(--i))) translateX(-15px);
+}
+.indicator ul li a{
+  -webkit-transform: rotate(calc(360deg/-6* var(--i)));
+  -ms-transform: rotate(calc(360deg/-6* var(--i)));
+  -moz-transform: rotate(calc(360deg/-6* var(--i)));
+  -webkit-transform: rotate(calc(360deg/-6* var(--i)));
+  transform: rotate(calc(360deg/-6* var(--i)));
+}
+.indicator form{
+  display: none;	
+}
+.indicator form input[type="search"]{
+  top: -2px;
+  position: relative;
+  max-width: 115px;
+  height: 30px;
+  margin: 2px;
+  outline: none;
+  border: none;
+  border-bottom: solid 2px rgb(255,255,255,.7);
+  background: transparent;
+}
+.indicator form input[type="submit"]{
+  display: none;
+}
+.indicator form label{
+  border: none;
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  background: #f0f0f0;
+  color: #777;
+}
+.indicator form input[type="search"]:focus-visible,
+.indicator form inputinput[type="search"]:focus,
+.indicator form input input[type="search"]:active{
+  background: rgb(255,255,255,.9);
+  border-bottom: solid 2px #fff;
+}
+/* Menu Losangulo
+-------------------------------------------------*/
+.losangle {
+  width: 135px;
+  height: 135px;
+  background: url(../menu.jpg);
+  background-size: contain;
+}
+.losangle > div{
+  position: relative;
+  top: 55px;
+  left:30px;
+  width: 135px;
+  height: 135px;
+  transform: rotate(90deg);
+  transform-origin: 80px 25px;
+}
+.losangle ul{
+  position: relative;
+  top: -62px;
+  left: 0;
+}
+.losangle .btn{
+  width: 62px;
+  height: 62px;
+  position: relative;
+  z-index: 1;
+  top: 35px;
+  left: 1px;
+  
+  /*-webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);*/
+  transform: rotate(45deg);
+  transform-origin: 35px 45px;
+}
+.losangle .btn i{
+  display: block;
+  -webkit-transform: rotate(45deg) scale(1.5);
+  -ms-transform: rotate(45deg) scale(1.5);
+  -moz-transform: rotate(45deg) scale(1.5);
+  -webkit-transform: rotate(45deg) scale(1.5);
+  transform: rotate(45deg) scale(1.5);
+}
+.losangle ul li{
+  width: 28px;
+  height: 28px;
+  
+  top: -100px;
+  left: 18px;
+  
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  
+  list-style: none;
+  position: relative;
+  background: #0ff;
+  
+  -webkit-transform: rotate(-225deg);
+  -ms-transform: rotate(-125deg);
+  -moz-transform: rotate(-225deg);
+  -webkit-transform: rotate(-225deg);
+  transform: rotate(-225deg);
+}
+.losangle:hover ul li{
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.losangle ul li a{
+  padding: 6px;
+  text-align: center;
+  position: relative;
+  display: block;
+  
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-135deg);
+}
+.losangle ul li:hover{
+  background: #f0f;
+  color: #fff;
+}
+.losangle ul li:nth-child(1){
+  top:  52px;
+  left: 29px;
+}
+.losangle ul li:nth-child(2){
+  top: 24px;
+  left:29px;
+}
+.losangle ul li:nth-child(3){
+  top: -4px;
+  left:29px;	
+}
+.losangle ul li:nth-child(4){
+  top: -32px;
+  left: 29px;
+}
+.losangle ul li:nth-child(5){
+  top: -60px;
+  left: 29px;
+}
+
+.losangle:hover ul li:nth-child(1){
+  top:  5px;
+  left:53px;
+}
+.losangle:hover ul li:nth-child(2){
+  top: 1px;
+  left:77px;
+}
+.losangle:hover ul li:nth-child(3){
+  top: -3px;
+  left:101px;	
+}
+.losangle:hover ul li:nth-child(4){
+  top: -7px;
+  left:77px;
+}
+.losangle:hover ul li:nth-child(5){
+  top: -11px;
+  left: 53px;
+}
+.losangle form{
+  display: none;
+}
+/* BUTTONS
+---------------------------------------------------------------------------------------------------*/
+.btn{
+  border: none;
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Size
+-------------------------------------------------*/
+.btn-tiny{
+  width: 10px;
+}
+.btn-small{
+  width: 12px;
+}
+.btn-medium{
+  width: 16px;
+}
+.btn-large{
+  width: 18px;
+}
+.btn-xlarge{
+  width: 24px;
+}
+
+/* Round
+-------------------------------------------------*/
+.btn-round{
+  border-radius: 4px;
+}
+.btn-round-large{
+  border-radius: 8px;
+}
+.btn-round-xlarge{
+  border-radius: 16px;
+}
+.btn-round-xxlarge{
+  border-radius: 32px;
+}
+
+/* Status
+-------------------------------------------------*/
+.btn-disabled:disabled{ 
+  opacity: .3;
+}
+.btn-disabled.btn-hover-disabled:disabled:hover{
+}
+/* Form
+-------------------------------------------------*/
+.btn-circle{
+  border-radius: 50%;
+}
+
+
