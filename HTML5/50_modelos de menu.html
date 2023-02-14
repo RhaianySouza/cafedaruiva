@@ -9,6 +9,9 @@
 	
 </head>
 <style>
+:root{
+  --cor1:#F56C90;
+}
 body{
   padding: 0;
   margin: 0;
@@ -26,7 +29,7 @@ nav > div{
  color: #999;
  margin: 0;
  padding: 0;
- background: #0ff;
+ background: var(--cor1);
 }
 nav ul li a{
   color: #333;
@@ -37,14 +40,15 @@ nav ul li:hover a{
   background: #fff;
   
 }
+	
 .mosaic ul li:hover a{
-  background: #0ff;
+  background: var(--cor1);
 }
 .mosaic ul{
-  background: #0ff;
+  background: var(--cor1);
 }
 .circle ul li{
-  background: #0ff;
+  background: var(--cor1);
   background: -webkit-linear-gradient(-33deg, transparent 20%, #0ff 20%);
   background: -moz-linear-gradient(-33deg, transparent 20%, #0ff 20%);
   background: linear-gradient(-33deg, transparent 20%, #0ff 20%);
