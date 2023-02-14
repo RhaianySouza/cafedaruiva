@@ -1,3 +1,7 @@
+:root{
+  --cor1:#F56C90;
+}
+
 /* Menu
 ---------------------------------------------------------------------------------------------------*/
 
@@ -605,7 +609,6 @@
   
   list-style: none;
   position: relative;
-  background: #0ff;
   
   -webkit-transform: rotate(-225deg);
   -ms-transform: rotate(-125deg);
