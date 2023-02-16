@@ -1,0 +1,638 @@
+:root{
+	--cor1: #262321;
+	--cor2: #bf3f34;
+	--cor3: #bf6e3d;
+	--cor4: #f2c777;
+	
+	--col-1: 6.30%;
+	--col-2: 14.60%;
+	--col-3: 23.00%;
+	--col-4: 31.30%;
+	--col-5: 39.60%;
+	--col-6: 48.00%;
+	--col-7: 56.33%;
+	--col-8: 64.60%;
+	--col-9: 73.00%;
+	--col-10:81.30%;
+	--col-11:89.60%;
+	--col-12:98.00%;
+}
+/*BODY
+-------------------------------------------------*/
+body{
+  margin: 0;
+  font-family: 'Bebas Neue', cursive;/*'Oswald', sans-serif;'Roboto Condensed', sans-serif;*/
+  background: url(../cafedaruiva-image/background.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body h2{
+  padding: 8px 0px;
+  font-size: 36px;
+}
+::selection {
+  color: var(--cor1);
+  background: var(--cor4);
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: var(--cor1);
+}
+::-webkit-scrollbar-thumb{
+  background-color: var(--cor4);
+  border-radius: 5px;
+}
+/*HEADER
+-------------------------------------------------*/
+header{
+  height: 800px;
+  /*background: url(../cafedaruiva-image/background.jpg) no-repeat center;
+  background-size: cover;*/
+}
+header nav{
+  width: var(--col-12);
+  max-width: 960px;
+  margin: 0 auto;
+  background: var(--cor1);
+  display: flex;
+  position: relative;
+  top: 45px;
+}
+header nav .btn{
+  font-size: 20px;
+  display: none;
+  background: transparent;
+  outline: none;
+  border: none;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  float: right;
+}
+header nav .btn i.fa-close, 
+header nav .btn i{
+ display: none;
+}
+header nav .btn i{
+  font-size: 30px;
+  display: block;
+}
+header nav .logo{
+  position: relative;
+  border-radius: 100%;
+  height: 50px;
+  float: left;
+  width: 23%;
+  margin: 0 1%;
+  display: inherit;
+  left: -25px;
+}
+header nav .logo a:nth-child(1){
+  width: 140px;
+  height: 140px;
+  top: -45px;
+  left: 0px;
+}
+header nav .logo a:nth-child(1) img{
+  background: var(--cor1);
+  border: solid var(--cor1) 5px;
+  border-radius: 100%;
+  width: 130px;
+  height: 130px;
+}
+header nav .logo a{
+  float:left;
+  display: block;
+  position: relative;
+  height: 50px;
+}
+header nav img{
+  width: inherit;
+  height: 90%;
+  margin: 2.5% 0;
+}
+header nav ul{
+  margin: 0 0 0 1%;
+  padding: 0;
+  width: 74%;;
+}
+header nav ul li{
+  width: 20%;
+  height: 50px;
+  line-height: 3;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  float: left;
+}
+header nav ul li a{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 1px 0;
+  transition: all .5s ease;
+}
+
+header nav ul li:hover a{
+  background: var(--cor2);
+	
+}
+header .socialmedia{
+	
+}
+/*SECTION
+-------------------------------------------------*/
+section {
+	
+}
+section > div{
+  max-width: 960px;
+  margin: 0 auto;
+  overflow: auto;
+}
+section > div h2{
+  margin: 0 1%;
+  border-bottom: 2px solid;
+}
+/*SERVICE
+------------------------*/
+section#service{
+  background: linear-gradient(0deg, var(--cor1) 70%, transparent 70%);
+  padding: 10px;
+  margin: -81px 0px 0 0;
+}
+section#service img{
+  max-height: 140px;
+  bottom: 20px;
+  position: relative;
+  max-width: 100%;
+}
+section#service p{
+	
+}
+section#service>div{
+	
+}
+section#service>div>div{
+  width: var(--col-3);
+  height: 250px;
+  float: left;
+  margin: 10px 1%;
+  background: linear-gradient(45deg, var(--cor2) 91%, transparent 91%);
+  color: var(--cor4);
+  text-align: center;
+  border-radius: 10px;
+}
+section#service>div>div>div:nth-child(1){
+  background: url('../cafedaruiva-image/dobra-marcador-01.png') top right no-repeat;
+  margin: -1px 2px;
+  width: 100%;
+  height: 50px;
+  z-index: 1;
+  position: relative;
+}
+section#service>div>div>div:nth-child(2){
+  border-top: var(--cor4) 2px dashed;
+  border-bottom: var(--cor4) 2px dashed;
+  margin: -25px auto 25px auto;
+  width: 82%;
+  height: 197px;
+}
+section#service p:nth-child(1){
+  margin: 25px auto 0px auto;
+  padding: 0px 0px 0px 0px;
+  font-size: 19px;
+  height: 50px;
+}
+section#service p:nth-child(2){
+  margin: 0;
+}
+/*ABOUT
+------------------------*/
+section#about{
+  background: url('../cafedaruiva-image/xicara-de-café-01.png') no-repeat bottom right var(--cor1);
+  background-position-x: 110%;
+  color: #fff;
+  padding: 10px;
+  height: 500px;
+}
+section#about h2{
+
+}
+section#about div{
+}
+section#about div div{
+  margin: 0 1%;
+  text-align: justify;
+}
+section#about div p{
+	
+}
+/*PRODUCT
+------------------------*/
+section#product{
+  background: #262321aa;
+  color: #fff;
+  height: 800px;
+}
+section#product h2{
+  color: #fff;
+}
+section#product>div{
+  overflow: inherit;
+}
+section#product>div>div{
+  margin: 10px 1%;
+}
+section#product #list{
+	
+}
+section#product #list ul{
+  margin: 0 0;
+  padding: 0;
+  display: flow-root;
+  height: 25px;
+  z-index: 1;
+  position: relative;
+  background: var(--cor2);
+}
+section#product #list ul li{
+  list-style: none;
+  width: var(--col-3);
+  height: 25px;
+  margin: 0 1%;
+  float: left;
+  text-align: center;
+  overflow: hidden;
+}
+section#product #list>ul>li:hover{
+  height: 127px;
+}
+section#product #list ul li a{
+  margin: 2px;
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  border: none;
+}
+section#product #list ul li ul{
+  background: #fff;
+  height: 0;
+}
+section#product #list ul li:hover ul{
+  height: 100px;
+}
+section#product #list ul li ul li{
+  float: none;
+  width: 100%;
+  background: var(--cor4);
+  margin: 0;
+}
+section#product #list ul li ul li a{
+  margin: 0;
+  padding: 1px 0;
+  color: var(--cor1);
+  border-bottom: var(--cor1) 2px solid;
+}
+section#product #list ul li ul li a:hover{
+  color: var(--cor2);
+  border-bottom: var(--cor2) 2px solid;
+}
+section#product .scroll{
+  display: -webkit-box;
+  word-break: keep-all;
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: clip;
+  white-space: nowrap;
+}
+section#product .fa{
+  position: relative;
+  font-size: 70px;
+  height: 0;
+  width: 0;
+  top: 74px;
+}
+section#product .fa.fa-angle-right{
+  float: right;
+  right: 0px;
+  height: 0;
+}
+section#product .fa.fa-angle-left{
+  float: left;
+  left: -25px;
+  height: 0;
+}
+section#product .scroll .item{
+  width: var(--col-3);
+  height: 220px;
+  background: #ffff;
+  float: left;
+  margin: 10px 1% 10px 1%;
+  position: relative;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+section#product .scroll .item img{
+  width: -webkit-fill-available;
+  height: 220px;
+}
+section#product .scroll .item .legenda{
+  height: 66px;
+  background: #3339;
+  position: relative;
+  top: -82px;
+  padding: 5px;
+  text-align: left;
+  white-space: normal;
+}
+section#product .scroll .item .legenda .categoria{
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+}
+section#product .scroll .item .legenda .descricao{
+  
+}
+section#product .col-1,
+section#product .col-2{
+  width: var(--col-6);
+  height: 400px;
+  margin: 0 1%;
+  float: left;
+}
+section#product .col-1 p:nth-child(1),
+section#product .col-1 p:nth-child(2),
+section#product .col-1 p:nth-child(4){
+  font-size: 25px;
+  margin: 35px 0px 10px 0px;
+}
+section#product .col-1 p:nth-child(3),
+section#product .col-1 p:nth-child(5){
+  font-size: 16px;
+}
+section#product .col-2 img{
+  width: -webkit-fill-available;
+}
+/*
+------------------------*/
+section.locate{
+  background: var(--cor1);
+  height: 750px;
+  background: var(--cor1) url('../cafedaruiva-image/cafe da ruiva 003-1.png') no-repeat bottom center;
+  background-size: 250px;
+}
+section.locate .limite{
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+  top: 120px;
+}
+/*CONTACT
+------------------------*/
+section #contact{
+  width: var(--col-8);
+  margin: 0 auto;
+}
+section #contact h2{
+  margin: 0 auto;
+  width: fit-content;
+  text-align: center;
+  color: var(--cor4);
+  text-shadow: 1px 1px 5px var(--cor1);
+}
+section #contact form{
+  margin: 20px auto;
+}
+
+section #contact form textarea{
+  height: 100px;
+}
+section #contact form input,
+section #contact form textarea{
+  background: var(--cor4);
+  padding: 10px;
+  margin: 5px 0;
+  /*border-radius: 5px;*/
+  outline: none;
+  border: none;
+  width: -webkit-fill-available;
+  box-shadow: 1px 1px 4px var(--cor1) inset;
+}
+
+section #contact form input{
+  height: 20px;
+  width: var(--col-6);
+  margin: 5px 0;
+  float: left;
+  padding: 15px .5%;
+}
+section #contact form input:nth-child(1){
+  margin-right: 1%;
+}
+section #contact form input:nth-child(2){
+  margin-left: 1%;
+}
+section #contact form input::placeholder,
+section #contact form textarea::placeholder{
+  color: var(--cor1);
+}
+section #contact form input[type='submit']{
+  width: -webkit-fill-available;
+  background: linear-gradient(0deg,var(--cor3), var(--cor3));
+  color: var(--cor1);
+  height: 50px;
+  transition: all .5s ease;
+  box-shadow: 2px 2px 5px #000;
+}
+section #contact form input[type='submit']:hover{
+  background: linear-gradient(0deg,var(--cor2), var(--cor3));
+}
+/*ADDRESS
+------------------------*/
+section #address{
+  width: var(--col-6);
+  margin: 0 1%;
+  float: left;
+  display: none;
+}
+section #address h2{
+  margin: 0 0;
+}
+
+/*FOOTER
+-------------------------------------------------*/
+footer{
+  background: var(--cor2);
+  color: #fff;
+  text-align: center;
+}
+footer div{
+  max-width: 960px;
+  margin: 0 auto;
+  overflow: auto;
+}
+footer > div > div{
+	margin: 5px 1%;
+}
+footer a{
+  color: var(--cor4);
+  transition: all .5s ease;
+  text-decoration: none;
+}
+footer a:hover{
+  color: var(--cor1);
+}
+footer .follow{
+  color: var(--cor4);
+  width: 200px;
+  margin: 0 auto;
+}
+footer .follow h2{
+  border-bottom: solid;
+  margin: 5px 0;
+  padding: 0;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+footer .follow .socialmedia{
+  
+}
+footer .follow .socialmedia .fa{
+  font-size: 30px;
+  width: 40px;
+  height: 30px;
+  margin: 5px 0;
+}
+footer .copyright{
+  margin: 0px 0;
+}
+footer .copyright>div{
+  margin: 5px 0;
+}
+@media only screen and (max-width: 790px){
+	/*BODY
+	-------------------------------------------------*/
+	/*HEADER
+	-------------------------------------------------*/
+	header nav{
+	  display: block;
+	  height: 50px;
+	}
+	header nav .logo{
+	  width: 50%;
+	}
+	header nav .btn{
+	  display: block;
+	}
+	header nav ul{
+	  width: 100%;
+	  height: 0;
+      display: block;
+	  overflow: hidden;
+	  margin: 0;
+	  top: 100px;
+	  position: relative;
+	}
+	header nav ul li{
+      width: 100%;
+      display: block;
+	}
+	header nav.activemenu .logo{
+	  left: 0;
+	}
+	header nav.activemenu .logo a:nth-child(1){
+	  width: 0;
+	  height: 0;
+	  top: -45px;
+	  left: calc(100% - 77px);
+	}
+	header nav.activemenu ul{
+	  height: 250px;
+	  background: var(--cor1);
+	}
+	
+	/*SECTION
+	-------------------------------------------------*/
+	/*ABOUT
+	-------------------------------------------------*/
+	section#about>div {
+		background: #0009;
+	}
+	/*SERVICE
+	-------------------------------------------------*/
+	section#service{
+		
+	}
+	section#service>div{
+		
+	}
+	section#service>div>div{
+	}
+	section#service img {
+		bottom: -15px;
+	}
+	/*PRODUCT
+	-------------------------------------------------*/
+	section#product .scroll .item{
+	  width: var(--col-4);
+	  margin: 0 1%;
+	}
+	section#product .fa{
+	  z-index:1;
+	  color: var(--cor1);
+	}
+	section#product .fa.fa-angle-left{
+	  left: 7px;
+	}
+	section#product .fa.fa-angle-right{
+	  right: 33px;
+	}
+	/*CONTACT
+	-------------------------------------------------*/
+	section #contact {
+      width: var(--col-12);
+	}
+	/*ADDRESS
+	-------------------------------------------------*/
+	/*FOOTER
+	-------------------------------------------------*/
+}
+@media only screen and (max-width: 580px){
+		/*BODY
+	-------------------------------------------------*/
+	/*HEADER
+	-------------------------------------------------*/
+	/*SECTION
+	-------------------------------------------------*/
+	/*ABOUT
+	-------------------------------------------------*/
+	/*SERVICE
+	-------------------------------------------------*/
+	section#service{
+		
+	}
+	section#service img {
+		bottom: 20px;
+	}
+	section#service>div{
+		
+	}
+	section#service>div>div{
+		width: var(--col-6);
+	}
+	/*PRODUCT
+	-------------------------------------------------*/
+	section#product .scroll .item{
+		width: var(--col-6);
+		margin: 0 1%;
+	}
+	/*CONTACT
+	-------------------------------------------------*/
+	/*ADDRESS
+	-------------------------------------------------*/
+	/*FOOTER
+	-------------------------------------------------*/
+}
