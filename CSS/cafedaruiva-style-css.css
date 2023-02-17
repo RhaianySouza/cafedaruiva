@@ -163,6 +163,11 @@ header .socialmedia a i.fa{
   margin: 10px;
   display: block;
   float: right;
+  transition: all .5s;
+}
+header .socialmedia a:hover i.fa{
+  background: var(--cor4);
+  color: var(--cor1);
 }
 /*SECTION
 -------------------------------------------------*/
