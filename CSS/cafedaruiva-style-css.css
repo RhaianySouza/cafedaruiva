@@ -138,7 +138,31 @@ header nav ul li:hover a{
 	
 }
 header .socialmedia{
-	
+  width: var(--col-12);
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+  top: 150px;
+}
+header .socialmedia a{
+  width: auto;
+  height: 60px;
+  color: transparent;
+  text-align: right;
+  display: block;
+}
+header .socialmedia a i.fa{
+  color: var(--cor4);
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+  background: var(--cor2);
+  border-radius: 100%;
+  text-align: center;
+  line-height: 1.35;
+  margin: 10px;
+  display: block;
+  float: right;
 }
 /*SECTION
 -------------------------------------------------*/
