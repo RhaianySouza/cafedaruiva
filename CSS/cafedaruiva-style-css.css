@@ -415,13 +415,13 @@ section#product .col-2 img{
 }
 /*
 ------------------------*/
-section.locate{
+section#locate{
   background: var(--cor1);
   height: 750px;
   background: var(--cor1) url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqoatf3HGi5ZEiVh0RFv6ARxyDSwvSangmwaBeD77gTTqkyvMvJoFgU11hArzIKwt24qk-ufyHYC-KcwB3TG-H4wD56Bh9_cjmebHGb-Xjt6mUjgOErgMuSZSVYQoWCSMENaIGmRs1DdLoMMBX8pwT2gU2E0gfexiNQFp3eKLQ0A8VuMyGJzvtQIxoyQ/w300-h300/cafe%20da%20ruiva%20003-1.png') no-repeat bottom center;
   background-size: 250px;
 }
-section.locate .limite{
+section#locate .limite{
   max-width: 960px;
   margin: 0 auto;
   position: relative;
@@ -635,7 +635,7 @@ footer .copyright>div{
 	/*CONTACT
 	-------------------------------------------------*/
 	section #contact {
-      width: var(--col-12);
+         width: var(--col-12);
 	}
 	/*ADDRESS
 	-------------------------------------------------*/
