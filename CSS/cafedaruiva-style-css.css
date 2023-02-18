@@ -22,7 +22,7 @@
 body{
   margin: 0;
   font-family: 'Bebas Neue', cursive;/*'Oswald', sans-serif;'Roboto Condensed', sans-serif;*/
-  background: url(../cafedaruiva-image/background.jpg) no-repeat center;
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9cMeKt7897UMNpp6UdXzKJKwwwyMkBuE00TmzSomo94KrCzLRNCOVAg7_Jb-XCFdzL8UubPdbo74ylhLAjIwgpX1cFXVOAZSPL_EBNi22_xNvnjMM-rKwcA6-v9s5i_Tt1w1-60PT1x7Qj10g9tm1XS0OOdqR7_F3L8Im2k8L5fYE0opcEVJgZblqoQ/s1600/background.jpg') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -49,7 +49,6 @@ body div{
 -------------------------------------------------*/
 header{
   height: 800px;
-  /*background: url(../cafedaruiva-image/background.jpg) no-repeat center;
   background-size: cover;*/
 }
 header nav{
@@ -218,7 +217,7 @@ section#service>div>div{
   transition: all 1s;
 }
 section#service>div>div>div:nth-child(1){
-  background: url('../cafedaruiva-image/dobra-marcador-01.png') top right no-repeat;
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiivBS7Y8Fn_v_4z9x5giv97wz4Xj4uffxt6QPPJsOnpMv5_HlGKjX-OG1ZeMqTHUX9i6SL--PhfRjBVDo3os6OPPSi9WxfXDioi6PvZ42FTAXwktpsglpR6lUIA9mIczwtViUYHA52AbLaDLZioDEU5F3ab4GKpBVGvJrHXUXhjhYKhVLPzhVK5s5few/w50-h50/dobra-marcador-01.png') top right no-repeat;
   margin: -1px 2px;
   width: 100%;
   height: 50px;
@@ -244,7 +243,7 @@ section#service p:nth-child(2){
 /*ABOUT
 ------------------------*/
 section#about{
-  background: url('../cafedaruiva-image/xicara-de-café-01.png') no-repeat bottom right var(--cor1);
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmCJ3XM-KvbDHxya1xNPBuCY7KwA4VWeejG3_gvSHQqLUm4ncYzJnpvLlmeK6rxZjbcIuXfN9TElTQJt8MxTcVPaVfhvGsb4jbo81Q3-VZjdGBkbMexrXTutNZ30rEjbWTo6Hn7bp88rEAg-huKqwyQuphg2koaA4oCKVzjgWKVKcXEE86cv2kJLY-ww/s650/xicara-de-caf%C3%A9-01.png') no-repeat bottom right var(--cor1);
   background-position-x: 110%;
   color: #fff;
   padding: 10px;
@@ -417,7 +416,7 @@ section#product .col-2 img{
 section.locate{
   background: var(--cor1);
   height: 750px;
-  background: var(--cor1) url('../cafedaruiva-image/cafe da ruiva 003-1.png') no-repeat bottom center;
+  background: var(--cor1) url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqoatf3HGi5ZEiVh0RFv6ARxyDSwvSangmwaBeD77gTTqkyvMvJoFgU11hArzIKwt24qk-ufyHYC-KcwB3TG-H4wD56Bh9_cjmebHGb-Xjt6mUjgOErgMuSZSVYQoWCSMENaIGmRs1DdLoMMBX8pwT2gU2E0gfexiNQFp3eKLQ0A8VuMyGJzvtQIxoyQ/w300-h300/cafe%20da%20ruiva%20003-1.png') no-repeat bottom center;
   background-size: 250px;
 }
 section.locate .limite{
