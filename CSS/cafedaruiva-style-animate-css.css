@@ -14,6 +14,12 @@ section#product .scroll{
   transform: translateY(-250px);
   opacity: 0.0;
 }
+section#product .col-1, 
+section#product .col-2{
+  transform: translateY(150px);
+  opacity: 0.0;
+}
+
 footer .follow{
   transform: translateX(-150px);
   opacity: 0;
@@ -39,6 +45,11 @@ section#about .active>div{
 section#product .active .scroll{
   transform: translateY(0px);
   opacity: 1;
+}
+section#product .active .col-1, 
+section#product .active .col-2{
+  transform: translateY(0px);
+  opacity: 0;
 }
 footer .active .follow{
   transform: translateX(0px);
