@@ -35,31 +35,33 @@ function menu(){
 
 ["load","scroll"].forEach(function (evt) {
   window.addEventListener(evt, (event) => {
+	if(screen.width<=580){var x=1000;}
+	else{var x=500;}
 	var winHeader = [document.getElementsByTagName('header')[0].offsetTop, document.getElementsByTagName('header')[0].offsetHeight];
-	if(window.scrollY >= winHeader[0] && window.scrollY<=winHeader[1]-200){
+	if(window.scrollY >= winHeader[0] && window.scrollY<=winHeader[1]-x){
 	  document.getElementsByTagName('header')[0].getElementsByClassName('socialmedia')[0].classList.add("active");
 	};
 	
-	var winService = [document.getElementById('service').offsetTop-700, document.getElementById('service').offsetTop+document.getElementById('service').offsetHeight];
-	if(window.scrollY >= winService[0] && window.scrollY<=winService[1]){
+	var winService = [document.getElementById('service').offsetTop, document.getElementById('service').offsetTop+document.getElementById('service').offsetHeight];
+	if(window.scrollY >= winService[0]-x && window.scrollY<=winService[1]){
 	  document.getElementById('service').getElementsByTagName('div')[0].classList.add("active");
 	};
 	
-	var winAbout = [document.getElementById('about').offsetTop-500, document.getElementById('about').offsetTop+document.getElementById('about').offsetHeight];
-	if(window.scrollY >= winAbout[0] && window.scrollY<=winAbout[1]){
+	var winAbout = [document.getElementById('about').offsetTop, document.getElementById('about').offsetTop+document.getElementById('about').offsetHeight];
+	if(window.scrollY >= winAbout[0]-x && window.scrollY<=winAbout[1]){
 	  document.getElementById('about').getElementsByTagName('div')[0].classList.add("active");
 	};
 	
-	var winProduct = [document.getElementById('product').offsetTop-500, document.getElementById('product').offsetTop+document.getElementById('product').offsetHeight];
-	if(window.scrollY >= winProduct[0] && window.scrollY<=winProduct[1]){
+	var winProduct = [document.getElementById('product').offsetTop, document.getElementById('product').offsetTop+document.getElementById('product').offsetHeight];
+	if(window.scrollY >= winProduct[0]-x && window.scrollY<=winProduct[1]){
 	  document.getElementById('product').getElementsByTagName('div')[0].classList.add("active");
 	};
-	var winContact = [document.getElementById('locate').offsetTop-800, document.getElementById('locate').offsetTop+document.getElementById('locate').offsetHeight];
-	if(window.scrollY >= winContact[0] && window.scrollY<=winContact[1]){
+	var winContact = [document.getElementById('locate').offsetTop, document.getElementById('locate').offsetTop+document.getElementById('locate').offsetHeight];
+	if(window.scrollY >= winContact[0]-x && window.scrollY<=winContact[1]){
 	  document.getElementById('locate').getElementsByTagName('div')[0].classList.add("active");
 	};
-	var winFooter= [document.getElementsByTagName('footer')[0].offsetTop-1000, document.getElementsByTagName('footer')[0].offsetTop + document.getElementsByTagName('footer')[0].offsetHeight];
-	if(window.scrollY >= winFooter[0] && window.scrollY<=winFooter[1]){
+	var winFooter= [document.getElementsByTagName('footer')[0].offsetTop, document.getElementsByTagName('footer')[0].offsetTop + document.getElementsByTagName('footer')[0].offsetHeight];
+	if(window.scrollY >= winFooter[0]-x && window.scrollY<=winFooter[1]){
 	  document.getElementsByTagName('footer')[0].getElementsByTagName('div')[0].classList.add("active");
 	};
 
