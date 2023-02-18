@@ -54,6 +54,11 @@ function menu(){
 	if(window.scrollY >= winProduct[0] && window.scrollY<=winProduct[1]){
 	  document.getElementById('product').getElementsByTagName('div')[0].classList.add("active");
 	};
+	  
+	var winFooter= [document.getElementsByTagName('footer')[0].offsetTop-650, document.getElementsByTagName('footer')[0].offsetTop + document.getElementsByTagName('footer')[0].offsetHeight];
+	if(window.scrollY >= winFooter[0] && window.scrollY<=winFooter[1]){
+	  document.getElementsByTagName('footer')[0].getElementsByTagName('div')[0].classList.add("active");
+	};
 
   });
 })
