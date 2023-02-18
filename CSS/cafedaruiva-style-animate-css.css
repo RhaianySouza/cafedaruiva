@@ -2,6 +2,9 @@ header .socialmedia a{
   left: 50%;
   opacity: 0.3;
 }
+section {
+  overflow: hidden;
+}
 section#service>div>div{
   transform: translateY(250px);
   opacity: 0.3;
