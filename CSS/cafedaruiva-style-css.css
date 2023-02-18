@@ -593,7 +593,9 @@ footer .copyright>div{
 	  height: 250px;
 	  background: var(--cor1);
 	}
-	
+	header .socialmedia{
+	  top: 450px;
+	}
 	/*SECTION
 	-------------------------------------------------*/
 	/*ABOUT
