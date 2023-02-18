@@ -510,6 +510,7 @@ footer div{
   max-width: 960px;
   margin: 0 auto;
   overflow: auto;
+  transition: all .5s;
 }
 footer > div > div{
 	margin: 5px 1%;
