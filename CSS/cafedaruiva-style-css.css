@@ -562,7 +562,7 @@ footer .copyright>div{
 	  height: 50px;
 	}
 	header nav .logo{
-	  width: 50%;
+	  width: calc(100% - 65px);
 	}
 	header nav .btn{
 	  display: block;
@@ -576,7 +576,7 @@ footer .copyright>div{
 	  top: 100px;
 	  position: relative;
 	}
-	header nav ul li{
+     header nav ul li{
       width: 100%;
       display: block;
 	}
