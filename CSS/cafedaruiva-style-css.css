@@ -25,7 +25,6 @@ body{
   background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9cMeKt7897UMNpp6UdXzKJKwwwyMkBuE00TmzSomo94KrCzLRNCOVAg7_Jb-XCFdzL8UubPdbo74ylhLAjIwgpX1cFXVOAZSPL_EBNi22_xNvnjMM-rKwcA6-v9s5i_Tt1w1-60PT1x7Qj10g9tm1XS0OOdqR7_F3L8Im2k8L5fYE0opcEVJgZblqoQ/s1600/background.jpg') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  overflow: hidden;
 }
 body h2{
   padding: 8px 0px;
@@ -650,6 +649,7 @@ footer .copyright>div{
 	-------------------------------------------------*/
 	footer{
 	  /*min-height: 250px;*/
+	  overflow-x: hidden;
 	}
 }
 @media only screen and (max-width: 490px){
