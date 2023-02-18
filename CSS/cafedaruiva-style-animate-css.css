@@ -19,14 +19,13 @@ section#product .col-2{
   transform: translateY(150px);
   opacity: 0.0;
 }
-
 footer .follow{
   transform: translateX(-150px);
-  opacity: 0;
+  opacity: 0.0;
 }
 footer .copyright{
   transform: translateX(150px);
-  opacity: 0;
+  opacity: 0.0;
 }
 /*ANIMATE
 -------------------------------------------------*/
