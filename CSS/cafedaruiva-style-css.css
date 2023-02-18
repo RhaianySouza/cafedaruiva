@@ -562,18 +562,15 @@ footer .copyright>div{
 	/*BODY
 	-------------------------------------------------*/
 	body{
-	  webkit-animation: bg 10s ease-in-out 1;
-	  animation: bg 10s ease-in-out 1;
+	  webkit-animation: bg 60s infinite ease-in-out;
+	  animation: bg 60s infinite ease-in-out;
 	}
 	@keyframes bg{
 	 0%{
 	     background-position-x: 0%;
 	  }
-	 50%{
-	     background-position-x: 100%;
-	  }
 	 100%{
-	     background-position-x: 0%;
+	     background-position-x: 100%;
 	  }
 	}
 	/*HEADER
