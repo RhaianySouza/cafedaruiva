@@ -130,26 +130,27 @@ header nav ul li a{
   color: #fff;
   text-decoration: none;
   padding: 1px 0;
+  position: relative;
+  left: calc(100% - 75px);
   transition: all .5s ease;
 }
-
 header nav ul li:hover a{
-  background: var(--cor2);
-	
+  background: var(--cor2);	
 }
 header .socialmedia{
   width: var(--col-12);
   max-width: 960px;
   margin: 0 auto;
-  position: relative;
+  
   top: 150px;
 }
 header .socialmedia a{
-  width: auto;
+  width: 75px;
   height: 75px;
   color: transparent;
   text-align: right;
   display: block;
+  position: relative;
 }
 header .socialmedia a i.fa{
   color: var(--cor4);
