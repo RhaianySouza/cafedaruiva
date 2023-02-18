@@ -30,6 +30,9 @@ body h2{
   padding: 8px 0px;
   font-size: 36px;
 }
+body div{
+  transition: all 1s;
+}
 ::selection {
   color: var(--cor1);
   background: var(--cor4);
