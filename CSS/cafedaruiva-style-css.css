@@ -587,7 +587,7 @@ footer .copyright>div{
 	  width: 0;
 	  height: 0;
 	  top: -45px;
-	  left: calc(100% - 50px);
+	  left: calc(50% - 50px);
 	}
 	header nav.activemenu ul{
 	  height: 250px;
