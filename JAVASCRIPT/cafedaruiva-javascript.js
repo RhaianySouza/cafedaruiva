@@ -35,10 +35,11 @@ function menu(){
 
 ["load","scroll"].forEach(function (evt) {
   window.addEventListener(evt, (event) => {
-	if(screen.width<=580){var x=1000;}
+	if(screen.width<=580){var x=800;}
 	else{var x=500;}
+	  
 	var winHeader = [document.getElementsByTagName('header')[0].offsetTop, document.getElementsByTagName('header')[0].offsetHeight];
-	if(window.scrollY >= winHeader[0] && window.scrollY<=winHeader[1]-x){
+	if(window.scrollY >= winHeader[0]-x && window.scrollY<=winHeader[1]-200){
 	  document.getElementsByTagName('header')[0].getElementsByClassName('socialmedia')[0].classList.add("active");
 	};
 	
