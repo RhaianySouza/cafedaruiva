@@ -1,0 +1,35 @@
+header .socialmedia a{
+  left: 50%;
+  position: relative;
+  opacity: 0.3;
+}
+section#service>div>div{
+  transform: translateY(250px);
+  opacity: 0.3;
+}
+section#about>div>div{
+  transform: translateY(-250px);
+  opacity: 0.0;
+}
+section#product .scroll{
+  transform: translateY(-250px);
+  opacity: 0.0;
+}
+/*ANIMATE
+-------------------------------------------------*/
+header .socialmedia.active a{
+  left: calc(100% - 75px);
+  opacity: 1;
+}
+section#service .active>div{
+  transform: translateY(0px);
+  opacity: 1;
+}
+section#about .active>div{
+  transform: translateY(0px);
+  opacity: 1;
+}
+section#product .active .scroll{
+  transform: translateY(0px);
+  opacity: 1;
+}
