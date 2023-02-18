@@ -397,6 +397,7 @@ section#product .col-2{
   height: 400px;
   margin: 0 1%;
   float: left;
+  position: relative;
 }
 section#product .col-1 p:nth-child(1),
 section#product .col-1 p:nth-child(2),
