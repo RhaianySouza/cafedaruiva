@@ -567,7 +567,7 @@ footer .copyright>div{
 	}
 	@keyframes bg{
 	0%{
-	     background-position-x: 0%;
+	     background-position-x: 5%;
 	  }
 	100%{
 	     background-position-x: 75%;
