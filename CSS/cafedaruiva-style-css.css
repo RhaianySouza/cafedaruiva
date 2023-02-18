@@ -147,7 +147,7 @@ header .socialmedia{
 header .socialmedia a{
   width: 60px;
   height: 60px;
-  left: calc(100% - 75px);
+  left: 0;
   color: transparent;
   text-align: right;
   display: block;
