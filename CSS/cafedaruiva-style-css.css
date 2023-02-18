@@ -505,13 +505,14 @@ footer{
   background: var(--cor2);
   color: #fff;
   text-align: center;
+  overflow: initial;
 }
 footer div{
   max-width: 960px;
   margin: 0 auto;
-  overflow: auto;
   transition: all .5s;
   position: relative;
+  overflow: initial;
 }
 footer>div>div{
   margin: 5px 1%;
