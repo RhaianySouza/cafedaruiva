@@ -145,8 +145,8 @@ header .socialmedia{
   top: 150px;
 }
 header .socialmedia a{
-  width: 75px;
-  height: 75px;
+  width: 60px;
+  height: 60px;
   color: transparent;
   text-align: right;
   display: block;
@@ -163,7 +163,6 @@ header .socialmedia a i.fa{
   line-height: 1.25;
   margin: 10px;
   display: block;
-  float: right;
   transition: all .5s;
   padding: 5px;
 }
