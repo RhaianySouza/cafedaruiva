@@ -15,11 +15,11 @@ section#product .scroll{
   opacity: 0.0;
 }
 footer .follow{
-  transform: translateY(-150px);
+  transform: translateX(-150px);
   opacity: 0;
 }
 footer .copyright{
-  transform: translateY(150px);
+  transform: translateX(150px);
   opacity: 0;
 }
 /*ANIMATE
