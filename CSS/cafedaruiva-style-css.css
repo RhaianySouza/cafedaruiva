@@ -566,11 +566,11 @@ footer .copyright>div{
 	  animation: bg 60s infinite ease-in-out;
 	}
 	@keyframes bg{
-	 0%{
+	0%{
 	     background-position-x: 0%;
 	  }
-	 100%{
-	     background-position-x: 100%;
+	100%{
+	     background-position-x: 75%;
 	  }
 	}
 	/*HEADER
