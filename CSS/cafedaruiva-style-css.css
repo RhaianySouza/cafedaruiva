@@ -398,6 +398,7 @@ section#product .col-2{
   margin: 0 1%;
   float: left;
   position: relative;
+  transition: all 1s;
 }
 section#product .col-1 p:nth-child(1),
 section#product .col-1 p:nth-child(2),
