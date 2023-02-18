@@ -35,7 +35,7 @@ function menu(){
 
 ["load","scroll"].forEach(function (evt) {
   window.addEventListener(evt, (event) => {
-	if(screen.width<=580){var x=800;}
+	if(screen.width<=580){var x=1000;}
 	else{var x=500;}
 	  
 	var winHeader = [document.getElementsByTagName('header')[0].offsetTop, document.getElementsByTagName('header')[0].offsetHeight];
