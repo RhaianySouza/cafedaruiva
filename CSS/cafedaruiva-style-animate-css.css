@@ -23,7 +23,7 @@ section#product .col-2{
   opacity: 0.0;
 }
 section#locate>div>div{
-  transform: translateY(-250px);
+  transform: translateY(250px);
   opacity: 0.3;
 }
 footer .follow{
