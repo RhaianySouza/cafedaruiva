@@ -512,8 +512,9 @@ footer div{
   overflow: auto;
   transition: all .5s;
 }
-footer > div > div{
-	margin: 5px 1%;
+footer>div>div{
+  margin: 5px 1%;
+  transition: all .5s;
 }
 footer a{
   color: var(--cor4);
