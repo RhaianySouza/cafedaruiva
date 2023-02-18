@@ -14,6 +14,14 @@ section#product .scroll{
   transform: translateY(-250px);
   opacity: 0.0;
 }
+footer .follow{
+  transform: translateY(-150px);
+  opacity: 0;
+}
+footer .copyright{
+  transform: translateY(150px);
+  opacity: 0;
+}
 /*ANIMATE
 -------------------------------------------------*/
 header .socialmedia.active a{
@@ -30,5 +38,13 @@ section#about .active>div{
 }
 section#product .active .scroll{
   transform: translateY(0px);
+  opacity: 1;
+}
+footer .active .follow{
+  transform: translateX(0px);
+  opacity: 1;
+}
+footer .active .copyright{
+  transform: translateX(0px);
   opacity: 1;
 }
