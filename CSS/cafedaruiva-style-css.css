@@ -141,7 +141,7 @@ header .socialmedia{
   width: var(--col-12);
   max-width: 960px;
   margin: 0 auto;
-  
+  position: relative;
   top: 150px;
 }
 header .socialmedia a{
