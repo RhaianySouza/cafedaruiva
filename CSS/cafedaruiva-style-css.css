@@ -515,8 +515,9 @@ footer div{
   overflow: initial;
 }
 footer>div>div{
-  margin: 5px 1%;
+  margin: 0px 1%;
   position: relative;
+  padding: 5px 0;
 }
 footer a{
   color: var(--cor4);
