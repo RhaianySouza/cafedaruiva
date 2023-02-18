@@ -515,7 +515,6 @@ footer div{
 }
 footer>div>div{
   margin: 5px 1%;
-  transition: all .5s;
   position: relative;
 }
 footer a{
