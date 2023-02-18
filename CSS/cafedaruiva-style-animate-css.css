@@ -49,7 +49,7 @@ section#product .active .scroll{
 section#product .active .col-1, 
 section#product .active .col-2{
   transform: translateY(0px);
-  opacity: 0;
+  opacity: 1;
 }
 footer .active .follow{
   transform: translateX(0px);
