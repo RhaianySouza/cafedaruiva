@@ -58,7 +58,7 @@ function menu(){
 	if(window.scrollY >= winContact[0] && window.scrollY<=winContact[1]){
 	  document.getElementById('locate').getElementsByTagName('div')[0].classList.add("active");
 	};
-	var winFooter= [document.getElementsByTagName('footer')[0].offsetTop-700, document.getElementsByTagName('footer')[0].offsetTop + document.getElementsByTagName('footer')[0].offsetHeight];
+	var winFooter= [document.getElementsByTagName('footer')[0].offsetTop-800, document.getElementsByTagName('footer')[0].offsetTop + document.getElementsByTagName('footer')[0].offsetHeight];
 	if(window.scrollY >= winFooter[0] && window.scrollY<=winFooter[1]){
 	  document.getElementsByTagName('footer')[0].getElementsByTagName('div')[0].classList.add("active");
 	};
