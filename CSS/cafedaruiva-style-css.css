@@ -205,7 +205,7 @@ section#service p{
 	
 }
 section#service>div{
-	
+  overflow: hidden;	
 }
 section#service>div>div{
   width: var(--col-3);
