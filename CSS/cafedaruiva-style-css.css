@@ -561,6 +561,21 @@ footer .copyright>div{
 @media only screen and (max-width: 790px){
 	/*BODY
 	-------------------------------------------------*/
+	body{
+	  webkit-animation: bg 10s ease-in-out 1;
+	  animation: bg 10s ease-in-out 1;
+	}
+	@keyframes bg{
+	 0%{
+	     background-position-x: 0%;
+	  }
+	 50%{
+	     background-position-x: 100%;
+	  }
+	 100%{
+	     background-position-x: 0%;
+	  }
+	}
 	/*HEADER
 	-------------------------------------------------*/
 	header nav{
