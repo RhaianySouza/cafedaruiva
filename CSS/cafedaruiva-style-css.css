@@ -509,7 +509,7 @@ footer{
   background: var(--cor2);
   color: #fff;
   text-align: center;
-  overflow: initial;
+  overflow: hidden;
 }
 footer div{
   max-width: 960px;
