@@ -273,7 +273,7 @@ section#product h2{
   color: #fff;
 }
 section#product>div{
-  overflow: inherit;
+  overflow: initial;
 }
 section#product>div>div{
   margin: 10px 1%;
