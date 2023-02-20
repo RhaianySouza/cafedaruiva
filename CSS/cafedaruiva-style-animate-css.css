@@ -3,7 +3,7 @@ header .socialmedia a{
   opacity: 0.3;
 }
 section {
-  overflow: hidden;
+  overflow: initial;
 }
 section#service>div>div{
   transform: translateY(250px);
