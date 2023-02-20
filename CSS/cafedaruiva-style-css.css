@@ -511,7 +511,7 @@ footer{
   text-align: center;
   overflow: hidden;
 }
-footer div{
+footer>div{
   max-width: 960px;
   margin: 0 auto;
   transition: all .5s;
