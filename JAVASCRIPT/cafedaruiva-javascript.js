@@ -32,7 +32,7 @@ function menu(){
 function animationClass(a){
   var win = [a.offsetTop, a.offsetTop+a.offsetHeight];
   var w = (screen.height - a.offsetHeight)/2;
-  if(window.scrollY >= win[0]-(w+200) && window.scrollY <= win[1]+(w+200)){
+  if(window.scrollY >= win[0]-(w+400) && window.scrollY <= win[1]+(w+200)){
 	a.classList.add("active");
   };
 };
