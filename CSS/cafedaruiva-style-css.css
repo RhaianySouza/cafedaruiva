@@ -45,6 +45,56 @@ body div{
   background-color: var(--cor4);
   border-radius: 5px;
 }
+/*PERFIL
+-------------------------------------------------*/
+.profile {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+.profile .image {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 0 auto;
+  display: block;
+}
+.profile .image .circle-1, .profile .image .circle-2 {
+  position: absolute;
+  box-sizing: border-box;
+  width: 76px;
+  height: 76px;
+  top: -3px;
+  left: -3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--cor4) var(--cor4) var(--cor4) transparent;
+  border-radius: 50%;
+  transition: all 1.5s ease-in-out;
+}
+.profile .image .circle-2 {
+  width: 82px;
+  height: 82px;
+  top: -6px;
+  left: -6px;
+  border-color: var(--cor4) transparent var(--cor4) var(--cor4);
+}
+.profile .image:hover .circle-1{
+    transform: rotate(360deg);
+}
+.profile .image:hover .circle-2{
+    transform: rotate(360deg);
+}
+.profile .image .photo{
+  background: var(--cor4) url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipr3YRDvaVdWwTOBkZMMswrvqiwWe-7jEBD_DWWnjCDcIrX3HwyAKlbfx3WJDedbT5TEq-bL7M6d9bJ2vjXoY1Cp48-Uz5eLr4cQsSd05GSHQtRQXIkXTua-F9PfDr73Sdt9nSb8BvNBXw38BFQxtZrddc2nIhJgWeDEXnYdtkV_ogTC8hZuF4Xznjbw/s150/foto_perfil_rhaianysouza.png) -41px -1px no-repeat;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+}
+
 /*HEADER
 -------------------------------------------------*/
 header{
