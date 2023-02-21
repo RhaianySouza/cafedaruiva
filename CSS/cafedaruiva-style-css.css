@@ -649,7 +649,7 @@ footer .copyright>div{
           display: block;
 	  overflow: hidden;
 	  margin: 0;
-	  top: 100px;
+	  top: 50px;
 	  position: relative;
 	}
         header nav ul li{
@@ -663,7 +663,7 @@ footer .copyright>div{
 	  width: 0;
 	  height: 0;
 	  top: -45px;
-	  left: calc(50% - 50px);
+	  left: calc(50% - 40px);
 	}
 	header nav.activemenu ul{
 	  height: 250px;
