@@ -86,7 +86,7 @@ body div{
     transform: rotate(360deg);
 }
 .profile .image:hover .circle-2{
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
 }
 .profile .image .photo{
   background: var(--cor4) url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipr3YRDvaVdWwTOBkZMMswrvqiwWe-7jEBD_DWWnjCDcIrX3HwyAKlbfx3WJDedbT5TEq-bL7M6d9bJ2vjXoY1Cp48-Uz5eLr4cQsSd05GSHQtRQXIkXTua-F9PfDr73Sdt9nSb8BvNBXw38BFQxtZrddc2nIhJgWeDEXnYdtkV_ogTC8hZuF4Xznjbw/s150/foto_perfil_rhaianysouza.png) -41px -1px no-repeat;
