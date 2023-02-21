@@ -51,9 +51,10 @@ body div{
   width: 100px;
   height: 100px;
   text-align: center;
-  position: absolute;
+  position: fixed;
   bottom: 15px;
   right: 15px;
+  z-index: 1;
 }
 .profile:hover {
   transform: scale(1.5);
