@@ -55,6 +55,9 @@ body div{
   bottom: 15px;
   right: 15px;
 }
+.profile:hover {
+  transform: scale(1.5);
+}
 .profile .image {
   position: relative;
   width: 80px;
