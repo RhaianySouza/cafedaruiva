@@ -7,7 +7,7 @@
   "background_color": "#bf3f34",
   "display": "standalone",	
   "icons": [
-    {"src":"../cafedaruiva-image/cafedaruiva-128x128.png", "sizes":"16x16", "type":"image/png"},
-    {"src":"../cafedaruiva-image/cafedaruiva-256x256.png", "sizes":"32x32", "type":"image/png"}
+    {"src":"https://raw.githubusercontent.com/RhaianySouza/cafedaruiva/e350be560e05eeb1f66c2e0fbbd7a04f7392cf06/cafedaruiva-imagem/cafedaruiva-128x128.png", "sizes":"16x16", "type":"image/png"},
+    {"src":"https://raw.githubusercontent.com/RhaianySouza/cafedaruiva/e350be560e05eeb1f66c2e0fbbd7a04f7392cf06/cafedaruiva-imagem/cafedaruiva-64x64.png", "sizes":"32x32", "type":"image/png"}
   ]
 }
