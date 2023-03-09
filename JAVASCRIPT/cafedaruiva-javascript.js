@@ -1,6 +1,10 @@
-//Rhaiany Cezar
-//
-//
+/*Rhaiany Souza
+@autor Rhaiany Souza https://www.github.com/RhaianySouza
+
+Last Update of Tools 02.01.2023
+
+Copyright(c) 2023 Rhaiany Souza
+*/
 function slider(_id,x){
   var tumbler = _id.getElementsByClassName('scroll')[0];
   var w = tumbler.getElementsByClassName('item');
