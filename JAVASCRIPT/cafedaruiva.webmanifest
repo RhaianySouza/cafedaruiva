@@ -3,11 +3,11 @@
   "short_name": "Café da Ruiva app",
   "lang": "pt-BR",
   "description": "Pagina oficial Café da Ruiva, café gourmert, acessórios de barista, produto e equipamentos para café",
-  "icons": [
-    {"src": "cafedaruiva-image/cafedaruiva-128x128.png", "sizes": "16x16","type": "image/png"},
-	{"src": "cafedaruiva-image/cafedaruiva-256x256.png", "sizes": "32x32","type": "image/png"}
-	],
   "theme_color": "#bf3f34",
   "background_color": "#bf3f34",
-  "display": "standalone",
+  "display": "standalone",	
+  "icons": [
+    {"src": "cafedaruiva-image/cafedaruiva-128x128.png", "sizes": "16x16","type": "image/png"},
+    {"src": "cafedaruiva-image/cafedaruiva-256x256.png", "sizes": "32x32","type": "image/png"}
+  ]
 }
