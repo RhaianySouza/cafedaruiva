@@ -106,7 +106,7 @@ body div{
 /*HEADER
 -------------------------------------------------*/
 header{
-  height: 800px;
+  min-height: 800px;
   background-size: cover;*/
 }
 header nav{
@@ -305,7 +305,7 @@ section#about{
   background-position-x: 110%;
   color: #fff;
   padding: 10px;
-  height: 500px;
+  min-height: 500px;
 }
 section#about h2{
 
@@ -325,7 +325,7 @@ section#about div p{
 section#product{
   background: #262321aa;
   color: #fff;
-  height: 800px;
+  min-height: 800px;
 }
 section#product h2{
   color: #fff;
@@ -445,7 +445,6 @@ section#product .scroll .item .legenda .categoria{
   letter-spacing: 2px;
   font-size: 18px;
 }
-}
 section#product .scroll .item .legenda .descricao{
   
 }
@@ -475,7 +474,7 @@ section#product .col-2 img{
 ------------------------*/
 section#locate{
   background: var(--cor1);
-  height: 750px;
+  min-height: 750px;
   background: var(--cor1) url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqoatf3HGi5ZEiVh0RFv6ARxyDSwvSangmwaBeD77gTTqkyvMvJoFgU11hArzIKwt24qk-ufyHYC-KcwB3TG-H4wD56Bh9_cjmebHGb-Xjt6mUjgOErgMuSZSVYQoWCSMENaIGmRs1DdLoMMBX8pwT2gU2E0gfexiNQFp3eKLQ0A8VuMyGJzvtQIxoyQ/w300-h300/cafe%20da%20ruiva%20003-1.png') no-repeat bottom center;
   background-size: 250px;
   overflow: initial;
@@ -638,7 +637,7 @@ footer .copyright>div{
 	  height: 50px;
 	}
 	header nav .logo{
-	  width: calc(100% - 65px);
+	  width: calc(100% - 70px);
 	}
 	header nav .btn{
 	  display: block;
@@ -689,8 +688,12 @@ footer .copyright>div{
 	}
 	section#service>div>div{
 	}
+	section#service>div>div>div:nth-child(1){
+		background-position-x: 102%;	
+	}
 	section#service img {
-		bottom: -15px;
+		bottom: -5px;
+		max-height: 125px;
 	}
 	/*PRODUCT
 	-------------------------------------------------*/
@@ -711,7 +714,12 @@ footer .copyright>div{
 	/*CONTACT
 	-------------------------------------------------*/
 	section #contact {
-         width: var(--col-12);
+         width: var(--col-8);
+	}
+	section #contact form input:nth-child(1),
+	section #contact form input:nth-child(2){
+		margin-left: 1%;
+		margin-right: 1%;
 	}
 	/*ADDRESS
 	-------------------------------------------------*/
@@ -723,10 +731,17 @@ footer .copyright>div{
 	}
 }
 @media only screen and (max-width: 490px){
-		/*BODY
+	/*BODY
 	-------------------------------------------------*/
 	/*HEADER
 	-------------------------------------------------*/
+	header nav .logo {
+		width: calc(100% - 60px);
+	}
+	header nav .logo a{
+		height: 46px;
+		margin: 2px 0px;
+	}
 	/*SECTION
 	-------------------------------------------------*/
 	/*ABOUT
@@ -753,8 +768,18 @@ footer .copyright>div{
 	}
 	/*CONTACT
 	-------------------------------------------------*/
+	section #contact {
+         width: var(--col-12);
+	}
+	section #contact form input{
+	 width: var(--col-12);
+	}
+	
 	/*ADDRESS
 	-------------------------------------------------*/
+	section#locate .limite{
+		top: 20px;
+	}
 	/*FOOTER
 	-------------------------------------------------*/
 	footer{
